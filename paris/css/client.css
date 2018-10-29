@@ -18,3 +18,6 @@ body {
     text-decoration: none;
     color: white;
 }
+.pf_barre a:hover, a:active {            /* footer lien */
+    color: lightgray;
+}
