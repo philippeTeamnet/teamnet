@@ -5,3 +5,16 @@ html, body {
 body {
     margin: 0;
 }
+
+/* ci-dessous amorce de la feuille client.css */
+/* 1em =~ 16px */ 
+
+
+/* barres : bandeau et footer */
+.pf_barre{
+    background-color : #649AF9;
+}
+.pf_barre a {                             /* footer lien */
+    text-decoration: none;
+    color: white;
+}
