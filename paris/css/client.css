@@ -1,18 +1,1 @@
-html, body {
-    font-family: 'Roboto', sans-serif;
-    height: 96%;
-}
-body {
-    margin: 0;
-}
-
-.pf_barre{
-    background-color : red;
-}
-.pf_barre a {  
-    text-decoration: none;
-    color: white;
-}
-.pf_barre a:hover, a:active { 
-    color: lightgray;
-}
+body,html{font-family:Roboto,sans-serif;height:96%}body{margin:0}.pf_barre{background-color:red}.pf_barre a{text-decoration:none;color:#fff}.pf_barre a:hover,a:active{color:#d3d3d3}
