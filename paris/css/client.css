@@ -45,15 +45,15 @@ body {
     background-color : white;
 }
 
-/* page d'accueil : page de liste des thème*/
-#pf_theme_conteneur{                       /* la page de la listes des thèmes*/
+/* page d'accueil : page de liste des thÃ¨mes */
+#pf_theme_conteneur{                       /* la page de la listes des thÃ¨mes*/
     max-width: 70%;
     margin: 4em auto;
 }
 #pf_theme_texte{
     text-align: center;
 }
-#pf_list_theme_conteneur{                  /* le conteneur du bloc de thèmes*/
+#pf_list_theme_conteneur{                  /* le conteneur du bloc de thÃ¨mes*/
     background-color: #E8E8E8;
     width:100%;
     margin-top : 2em;
@@ -61,15 +61,15 @@ body {
     display:inline-flex;
     flex-wrap: wrap;
 }
-.pf_theme {                                /* chaque bloc de thèmes*/
+.pf_theme {                                /* chaque bloc de thÃ¨me*/
     width:40em;
     margin: 3rem;
 }
-.pf_theme_formulaire{                       /* sous thème */
+.pf_theme_formulaire{                       /* sous thÃ¨me */
     height: 3em;
     margin-bottom : 1.4em;
 }
-.pf_theme_formulaire a {                           /* sous thème */
+.pf_theme_formulaire a {                           /* sous thÃ¨me */
     color: #555;
     position: relative;
     display: block;
@@ -82,7 +82,7 @@ body {
     padding-bottom: 10px;
     padding-left: 15px;
 }
-.pf_theme_formulaire a :hover {                     /* sous thème */
+.pf_theme_formulaire a :hover {                     /* sous thÃ¨me */
     color: #555;
     text-decoration: none;
     background-color: #f5f5f5;
