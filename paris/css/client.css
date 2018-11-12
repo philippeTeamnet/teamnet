@@ -2,10 +2,11 @@
 html, body {
     font-family: 'Roboto', sans-serif;
     height: 96%;
-} 
+}
 
 body {
     margin: 0;
+    font-size: 1.25em;
 }
 
 
@@ -13,35 +14,27 @@ body {
 /* 1em =~ 16px */ 
 
 
-/* barres : bandeau et footer */
-.pf_barre{
-    background-color : red;
-}
-.pf_barre a {                             /* footer lien */
-    text-decoration: none;
-    color: white;
-}
-.pf_barre a:hover, a:active {            /* footer lien */
-    color: lightgray;
-}
-
 /* bandeau */
-#pf_bandeau .navigation-item {             /* conteneur des liens */
-    list-style: none;
-    padding: 0;
-    margin: 0;
+#pf_bandeau {                               /* conteneur du bandeau */
 }
-#pf_bandeau .nav-caption {                 /* bandeau texte des liens */
-    display: inline-block;
-    padding-left: 0.25em;
+#pf_bandeau .navbar-brand {                 /* bandeau texte */
+    font-size: 1.6em;
 }
 
 /* footer */
  #pf_footer{                                /* footer position*/
     position: relative;
     left:0;
-    bottom:-1.9em;
-    height: 1.9em;
+    bottom:0;   
+}
+ #pf_footer a{                              /* footer lien*/
+    width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+ }
+ #pf_footer img{                              /* footer image*/
+    width:200px;
 }
 
 /* page : conteneur entre le bandeau et le footer */
@@ -54,52 +47,85 @@ body {
 
 /* page d'accueil : page de liste des thème*/
 #pf_theme_conteneur{                       /* la page de la listes des thèmes*/
-    max-width: 80%;
+    max-width: 70%;
     margin: 4em auto;
 }
+#pf_theme_texte{
+    text-align: center;
+}
 #pf_list_theme_conteneur{                  /* le conteneur du bloc de thèmes*/
+    background-color: #E8E8E8;
     width:100%;
+    margin-top : 2em;
     padding:auto;
-    display:flex;
-    justify-content: space-between;   
+    display:inline-flex;
     flex-wrap: wrap;
-
 }
 .pf_theme {                                /* chaque bloc de thèmes*/
     width:40em;
-    margin-top: 3rem;
+    margin: 3rem;
 }
-.pf_theme_lien {                           /* sous thème */
+.pf_theme_formulaire{                       /* sous thème */
+    height: 3em;
+    margin-bottom : 1.4em;
+}
+.pf_theme_formulaire a {                           /* sous thème */
+    color: #555;
+    position: relative;
+    display: block;
     text-decoration: none;
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
 }
-.pf_theme_lien:hover {                     /* sous thème */
-    color: red;
+.pf_theme_formulaire a :hover {                     /* sous thème */
+    color: #555;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+
+/* page d'affichage des messages */
+#pf_message{                              /* bloc d'affichage du message */
+    margin:0 auto;
+    width: 50em;
 }
 
 /* autres pages : style des blocs */
 .pf_bloc {
     width : 100%;
-    background: #eee; 
-    padding-left : 0.6em;;
+    padding-left : 0.6em;
+    display: inline;
+    margin-right: 1.3em;
 }
 .pf_bloc_titre{
     text-align : center;
     margin-bottom:1.3em;
     padding-top: 0.6em;
+    background-color: white;
 }
 .pf_bloc_conteneur{
     display:flex;
     flex-wrap: wrap;
 }
-.pf_bloc .pf_boutons {
+.pf_boutons{
     display: inline;
-    margin-right: 1.3em;
-
+    margin :0.6em;
 }
-.pf_boutons_input{                              /* boutons */
-    background-color : red;
-    color:white;
-    font-size:16px;
+.pf_btn{                                /* boutons d'action */
+    color: white;
+    background-color: rgb(36, 148, 212);
+.pf_syntax-error                                                            /* couleur de fond des champ si erreur*/
+{
+    background-color: #f78383 !important;
+}
+.pf_syntax-ok
+{
+    background-color: #EEEEEE !important;
+}
 }
 
 
