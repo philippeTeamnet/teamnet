@@ -16,6 +16,7 @@ body {
 
 /* bandeau */
 #pf_bandeau {                               /* conteneur du bandeau */
+    background-color : pink;
 }
 #pf_bandeau .navbar-brand {                 /* bandeau texte */
     font-size: 1.6em;
