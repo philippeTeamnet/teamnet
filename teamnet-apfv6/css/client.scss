@@ -1,26 +1,58 @@
 // Variables
-	
+
 :root
 {
-	//colors
-	--color_curious_blue_approx : rgb(255, 148, 212);
-	--color_cararra_approx : rgb(241, 234, 0);
-	--white : rgb(195, 211, 49);
-	--color_gray_nurse_approx : #d44444;
-	--color_fuscous_gray_approx : rgb(122, 106, 106);
-	--color_alto_approx : #cf8f8f;
-	--color_wild_sand_approx : #c74040;
-	--color_steel_blue_approx : #0f2c46;
-	--color_charlotte_approx : #2d494e;
-	--color_suva_gray_approx : rgb(73, 52, 52);
-	--color_geraldine_approx : #e6dfdf;
-	--color_gallery_approx: #611d1d;
-	--red : red;
-	--web_orange : orange;
-	--color_japanese_laurel_approx : green;
-	--color_mine_shaft_approx : #333;
 
-	//fonts
-	--font_0: Roboto;
-	--font_1: sans-serif;
+/* page */
+    --page_couleur_fond : rgb(255, 148, 212);
+    --page_fonte_nom: Roboto;
+    --page_fonte_serif: sans-serif;
+    --page_fonte_taille : 1.25em;  
+
+/* bandeau */
+    --bandeau_couleur_fond : yellow;
+    --bandeau_bouton_couleur_survol : rgb(255, 148, 212);
+    --bandeau_taille_police : 1.6em;    
+
+/* boutons */
+    --boutons_fond_couleur : rgb(255, 148, 212);
+    --boutons_police_couleur : rgb(0, 0, 0);    
+
+/* page liste des thèmes */ 
+    --themes_bloc_largeur : 40em;
+    --themes_bloc_marge : 3rem;
+    --themes_fond_couleur : rgb(255, 148, 212);
+    --themes_police_couleur : rgb(255, 148, 212);
+    --themes_police_couleur_survol : rgb(0, 0, 0);
+    --soustheme_bloc_hauteur : 3em;
+    --soustheme_bloc_marge_dessous : 1.4em;
+    --soustheme_bordure_couleur_survol : rgb(255, 148, 212);
+    --soustheme_fond_couleur : rgb(125, 125, 125);
+    --soustheme_fond_couleur_survol : rgb(0, 0, 0);
+
+/* page login */
+    --login_bloc_largeur :  25em;   
+    --login_titre_fond_couleur : rgb(146, 146, 146);
+    --login_titre_texte_couleur : rgb(255, 148, 212);
+    --login_bordure_couleur : rgb(255, 148, 212);
+
+/* messages et alertes */
+    --msg_alert_fond_couleur : rgb(255, 148, 212);
+    --msg_info_fond_couleur : rgb(255, 148, 212);
+    --msg_succes_fond_couleur : rgb(255, 148, 212);
+    --msg_bordure_couleur : rgb(255, 255, 255);
+    --msg_bordure_epaisseur: 1px;
+    
+/* page formulaires */
+    --bloc_fond_couleur : rgb(255, 255, 255);
+    --bloc_titre_fond_couleur : rgb(255, 148, 212);   
+
+/* validation des champs */    
+    --syntax_error_fond_couleur : rgb(255, 148, 212); 
+    --syntax_ok_fond_couleur : rgb(255, 148, 212); 
+   
+    
+/* footer */   
+    --footer_image_taille : 12.5em;
+
 }
