@@ -1,33 +1,32 @@
+
 // Variables
-
 :root
-{
-
+{	
 /* page */
-    --page_couleur_fond : rgb(255, 148, 212);
+    --page_couleur_fond : #F9FBAC;
     --page_fonte_nom: Roboto;
     --page_fonte_serif: sans-serif;
     --page_fonte_taille : 1.25em;  
 
 /* bandeau */
-    --bandeau_couleur_fond : yellow;
-    --bandeau_bouton_couleur_survol : rgb(255, 148, 212);
+    --bandeau_couleur_fond : #9EB99B;
+    --bandeau_bouton_couleur_survol : white;
     --bandeau_taille_police : 1.6em;    
 
 /* boutons */
-    --boutons_fond_couleur : rgb(255, 148, 212);
+    --boutons_fond_couleur : #9EB99B;
     --boutons_police_couleur : rgb(0, 0, 0);    
 
 /* page liste des thèmes */ 
     --themes_bloc_largeur : 40em;
     --themes_bloc_marge : 3rem;
-    --themes_fond_couleur : rgb(255, 148, 212);
-    --themes_police_couleur : rgb(255, 148, 212);
+    --themes_fond_couleur : grey;
+    --themes_police_couleur : black;
     --themes_police_couleur_survol : rgb(0, 0, 0);
     --soustheme_bloc_hauteur : 3em;
     --soustheme_bloc_marge_dessous : 1.4em;
-    --soustheme_bordure_couleur_survol : rgb(255, 148, 212);
-    --soustheme_fond_couleur : rgb(125, 125, 125);
+    --soustheme_bordure_couleur_survol : black;
+    --soustheme_fond_couleur : yellow;
     --soustheme_fond_couleur_survol : rgb(0, 0, 0);
 
 /* page login */
@@ -35,24 +34,22 @@
     --login_titre_fond_couleur : rgb(146, 146, 146);
     --login_titre_texte_couleur : rgb(255, 148, 212);
     --login_bordure_couleur : rgb(255, 148, 212);
-
-/* messages et alertes */
-    --msg_alert_fond_couleur : rgb(255, 148, 212);
-    --msg_info_fond_couleur : rgb(255, 148, 212);
-    --msg_succes_fond_couleur : rgb(255, 148, 212);
-    --msg_bordure_couleur : rgb(255, 255, 255);
-    --msg_bordure_epaisseur: 1px;
-    
+	
 /* page formulaires */
-    --bloc_fond_couleur : rgb(255, 255, 255);
-    --bloc_titre_fond_couleur : rgb(255, 148, 212);   
+    --bloc_fond_couleur : #F4F4F4;
+    --bloc_titre_fond_couleur : white;   
+
+/* messages et alertes */    
+    --modale_texte_couleur : black;
+    --modale_texte_taille : 2.5em;
+    --modale_bouton_fond_couleur : #333030;
+    --modale_bouton_texte_couleur : #fff;
+    --modale_bouton_texte_taille : 1em;
 
 /* validation des champs */    
     --syntax_error_fond_couleur : rgb(255, 148, 212); 
-    --syntax_ok_fond_couleur : rgb(255, 148, 212); 
+    --syntax_ok_fond_couleur : white; 
    
-    
 /* footer */   
-    --footer_image_taille : 12.5em;
-
+	--footer_image_taille : 12.5em;
 }
