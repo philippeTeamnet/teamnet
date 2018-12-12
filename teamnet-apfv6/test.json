@@ -1,8 +1,8 @@
 {
   "regles": [
   {
-	"action" : "cacher"
-	"trigger" : "click"
+	"action" : "cacher",
+	"trigger" : "click",
 	"champs1" : 
 	[
 	  {
