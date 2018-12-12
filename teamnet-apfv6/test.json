@@ -1,0 +1,20 @@
+{
+  "regles": [
+  {
+	"action" : "cacher"
+	"trigger" : "click"
+	"champs1" : 
+	[
+	  {
+		"identifiant" : "inputMon"
+	  }
+	],
+	"champs2" : 
+	[
+	  {
+		"identifiant" : "inputMon"
+	  }
+	]
+  }
+ ]
+}
