@@ -7,4 +7,5 @@
     ,"title": "Portail Paris"
     ,"msg_time": "3000"
     ,"msg_404": "La page recherchée n'est pas disponible"
+    ,"bandeau_client":"<p style='font-weight:bold;font-size:5em;'>Bienvenue sur la V6 du portail Teamnet</p><img alt='teamnet' title='teamnet' src='./assets/images/teamnet.jpg'/>"
 }
