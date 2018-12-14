@@ -1,5 +1,5 @@
 {
-    "txtthemes":"Voici la liste des <b>thèmes</b> et de leurs sous thèmes afférents.<br>La suite du baratin..."     
+    "txtthemes":"<p style='font-weight:bold;font-size:5em;'>Bienvenue sur la V6 du portail Teamnet</p><img alt='teamnet' title='teamnet' src='./assets/images/teamnet.jpg'/>"     
     ,"url": "http://192.168.1.132:8080"
     ,"mydata":"essai"
     ,"mydata2":"essai2"
@@ -7,5 +7,5 @@
     ,"title": "Portail Paris"
     ,"msg_time": "3000"
     ,"msg_404": "La page recherchée n'est pas disponible"
-    ,"bandeau_client":"<p style='font-weight:bold;font-size:5em;'>Bienvenue sur la V6 du portail Teamnet</p><img alt='teamnet' title='teamnet' src='./assets/images/teamnet.jpg'/>"
+
 }
