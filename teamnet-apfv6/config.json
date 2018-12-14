@@ -1,5 +1,5 @@
 {
-    "txtthemes":"<p style='font-weight:bold;font-size:15em;'>Bienvenue sur la V6 du portail Teamnet</p><img alt='teamnet' title='teamnet' src='https://raw.githubusercontent.com/philippeTeamnet/teamnet/master/teamnet-apfv6/images/210x100-1.jpg'/>"     
+    "txtthemes":"<p style='font-weight:bold;font-size: 20px;background-color : red;'>Bienvenue sur la V6 du portail Teamnet</p><img alt='teamnet' title='teamnet' src='https://raw.githubusercontent.com/philippeTeamnet/teamnet/master/teamnet-apfv6/images/210x100-1.jpg'/>"     
     ,"url": "http://192.168.1.132:8080"
     ,"mydata":"essai"
     ,"mydata2":"essai2"
