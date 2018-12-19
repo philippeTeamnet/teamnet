@@ -1,7 +1,7 @@
 {
      "url": "http://192.168.1.132:8080"
-    ,"txt_themes_avant":"<img alt='teamnet' title='teamnet' src='https://raw.githubusercontent.com/philippeTeamnet/teamnet/master/teamnet-apfv6/images/mairieparis.jpg'/><p style='font-weight:bold;font-size: 20px;background-color : red;'>Bienvenue sur la V6 du portail Teamnet</p>"     
-    ,"txt_themes_apres":"<img alt='teamnet' title='teamnet' src='https://raw.githubusercontent.com/philippeTeamnet/teamnet/master/teamnet-apfv6/images/mairieparis.jpg'/>"     
+    ,"txt_themes_avant":"<img alt='Paris' title='Paris' src='https://raw.githubusercontent.com/philippeTeamnet/teamnet/master/teamnet-apfv6/images/mairieparis.jpg'/><p style='font-weight:bold;font-size: 20px;background-color : red;'>Bienvenue sur la V6 du portail Teamnet</p>"     
+    ,"txt_themes_apres":"<img alt='Paris' title='Paris' src='https://raw.githubusercontent.com/philippeTeamnet/teamnet/master/teamnet-apfv6/images/mairieparis.jpg'/>"     
     ,"txt_themes_avant2":"<p style='font-weight:bold;font-size: 20px;background-color : green;'>Deuxième page d'accueil, vous allez y trouver ce que l'on a bien voulu y mettre</p>"     
     ,"mydata":"essai"
     ,"mydata2":"essai2"
