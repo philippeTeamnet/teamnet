@@ -1,9 +1,11 @@
 ﻿{
-    "txtthemes":"Voici la liste des <b>thèmes</b> et de leurs sous thèmes afférents.<br>La suite du baratin..."     
-    ,"url": "http://192.168.1.132:8080"
+     "url": "http://192.168.1.132:8080"
+    ,"txt_themes_avant":"<p style='font-weight:bold;font-size: 20px;background-color : red;'>Bienvenue sur la V6 du portail Teamnet</p><img alt='teamnet' title='teamnet' src='https://raw.githubusercontent.com/philippeTeamnet/teamnet/master/teamnet-apfv6/images/210x100-1.jpg'/>"     
+    ,"txt_themes_apres":"<p style='font-weight:bold;font-size: 20px;background-color : #cccccc;'>Voilà le baratin qu'il y a après. Ce texte est en html dans la config client et les images sont stockées dans la config client</p></br><img alt='teamnet' title='teamnet' src='https://raw.githubusercontent.com/philippeTeamnet/teamnet/master/teamnet-apfv6/images/210x100-1.jpg'/>"     
+    ,"txt_themes_avant2":"<p style='font-weight:bold;font-size: 20px;background-color : green;'>Deuxième page d'accueil, vous allez y trouver ce que l'on a bien voulu y mettre</p>"     
     ,"mydata":"essai"
     ,"mydata2":"essai2"
     ,"mydata3":"essai3"
     ,"title": "Portail Paris"
-    ,"msg_time": "3000"
+    ,"msg_404": "La page recherchée n'est pas disponible"
 }
