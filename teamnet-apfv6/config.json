@@ -7,5 +7,6 @@
     ,"mydata2":"essai2"
     ,"mydata3":"essai3"
     ,"title": "Portail Paris"
+    ,"html_bloc_gauche":"bloc_gauche.html"
     ,"msg_404": "La page recherchée n'est pas disponible"
 }
