@@ -2,14 +2,24 @@
 // Variables
 :root
 {	
-/* page */
+/* site */
+    --site_largeur :100%;
+    --site_couleur_fond : #F4F4F4;
+
+/* toutes les pages */
+    --page_largeur : 70%;
     --page_couleur_fond : #F4F4F4;
     --page_fonte_nom: Roboto;
     --page_fonte_serif: sans-serif;
-    --page_fonte_taille : 1.25em;  
-
+    --page_fonte_taille : 1.25em; 
+    --bloc_gauche_largeur : 10em;
+    --bloc_central_largeur : 40em;
+    --bloc_droit_largeur : 10em;
+    
 /* bandeau */
     --bandeau_couleur_fond : #55C8FF;
+    --bandeau_largeur : 100%;
+    --bandeau_hauteur : 4em;  
     --bandeau_bouton_couleur_survol : white;
     --bandeau_taille_police : 1.6em;    
 
