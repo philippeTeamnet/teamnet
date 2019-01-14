@@ -3,9 +3,9 @@
     ,"txt_themes_avant":""
     ,"txt_themes_apres":""
     ,"txt_themes_avant2":""
-    ,"mydata":"essai"
-    ,"mydata2":"essai2"
-    ,"mydata3":"essai3"
+    ,"color_success":"rgb(118, 221, 95)"
+    ,"color_info":"rgb(228, 234, 56)"
+    ,"color_error":"rgb(242, 92, 92)"
     ,"title": "MAIRIE D'AVIGNON - ACCUEIL"
     ,"msg_404": "La page recherchée n'est pas disponible"
 }
