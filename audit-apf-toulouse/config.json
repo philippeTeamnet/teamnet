@@ -1,0 +1,11 @@
+{
+     "url": "http://audit-ws-toulouse.portail-familles.com:8082"
+    ,"txt_themes_avant":"<img alt='Paris' title='Paris' src='https://raw.githubusercontent.com/philippeTeamnet/teamnet/master/paris-apfv6/images/mairieparis.jpg'/><p style='font-weight:bold;font-size: 20px;background-color : red;'>Bienvenue sur la V6 du portail Teamnet</p>"     
+    ,"txt_themes_apres":"<img alt='Paris' title='Paris' src='https://raw.githubusercontent.com/philippeTeamnet/teamnet/master/paris-apfv6/images/mairieparis.jpg'/>"     
+    ,"txt_themes_avant2":"<p style='font-weight:bold;font-size: 20px;background-color : green;'>Deuxième page d'accueil, vous allez y trouver ce que l'on a bien voulu y mettre</p>"     
+    ,"color_success":"rgb(118, 221, 95)"
+    ,"color_info":"rgb(228, 234, 56)"
+    ,"color_error":"rgb(242, 92, 92)"
+    ,"title": "Portail Paris"
+    ,"msg_404": "La page recherchée n'est pas disponible"
+}
