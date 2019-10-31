@@ -2,73 +2,81 @@
 // Variables
 :root
 {
-/* site */
-    --site_largeur :100%;
-    --site_couleur_fond : #F9FBAC;
-	
-/* toutes les pages */
-    --page_largeur : 70%;
-    --page_couleur_fond : #F9FBAC;
+    /* site */
+    --background_image1: url(https://www.suresnes.fr/wp-content/uploads/2019/05/reglementations_urbanisme.jpg);
+    --background_image2: url(https://www.suresnes.fr/wp-content/uploads/2019/05/budget.jpg);
+    --site_largeur: 100%;
+    --site_couleur_fond: '';
+    /* toutes les pages */
+    --page_largeur: 80%;
+    --page_couleur_fond: #ffffff59;
     --page_fonte_nom: Roboto;
     --page_fonte_serif: sans-serif;
-    --page_fonte_taille : 1.25em; 
-    --bloc_gauche_largeur : 10em;
-    --bloc_central_largeur : 40em;
-    --bloc_droit_largeur : 10em;
-    
-/* bandeau */
-    --bandeau_couleur_fond : #9EB99B;
-    --bandeau_largeur : 100%;
-    --bandeau_hauteur : 4em;  
-    --bandeau_bouton_couleur_survol : white;
-    --bandeau_taille_police : 1.6em;    
-
-/* boutons */
-    --boutons_fond_couleur : #9EB99B;
-    --boutons_police_couleur : rgb(0, 0, 0);    
-
-/* page liste des thèmes */ 
-    --themes_bloc_largeur : auto;
-    --themes_bloc_marge : 3rem;
-    --themes_fond_couleur : grey;
-    --themes_police_couleur : black;
-    --themes_police_couleur_survol : rgb(0, 0, 0);
-    --soustheme_bloc_hauteur : 3em;
-    --soustheme_bloc_marge_dessous : 1.4em;
-    --soustheme_bordure_couleur_survol : black;
-    --soustheme_fond_couleur : yellow;
-    --soustheme_fond_couleur_survol : rgb(0, 0, 0);
-/* thèmes menu*/
-    --themes_menu_marge_dessous : 3em;
-    --themes_menu_direction : row; 
-    --themes_menu_fond_couleur : yellow;
-    --themes_menu_fond_couleur_select : green;
-    --themes_menu_item_alignement : center;
-    --themes_menu_police_taille : 1.6em;
-    --themes_menu_police_couleur : black; 
-    
-
-/* page login */
-    --login_bloc_largeur :  40em;   
-    --login_titre_fond_couleur : rgb(146, 146, 146);
-    --login_titre_texte_couleur : rgb(255, 148, 212);
-    --login_bordure_couleur : rgb(255, 148, 212);
-	
-/* page formulaires */
-    --bloc_fond_couleur : #F4F4F4;
-    --bloc_titre_fond_couleur : white;  
-
-/* messages et alertes */    
-    --modale_texte_couleur : black;
-    --modale_texte_taille : 2.5em;
-    --modale_bouton_fond_couleur : #333030;
-    --modale_bouton_texte_couleur : #fff;
-    --modale_bouton_texte_taille : 1em;
-
-/* validation des champs */    
-    --syntax_error_fond_couleur : rgb(255, 148, 212); 
-    --syntax_ok_fond_couleur : white; 
-   
-/* footer */   
-	--footer_image_taille : 12.5em;
+    --page_fonte_taille: 1.25em;
+    --bloc_haut_largeur: 70%;
+    --bloc_gauche_largeur: auto;
+    --bloc_central_largeur: 80em;
+    --bloc_droit_largeur: auto;
+    /* bandeau */
+    --bandeau_couleur_fond: #365ba7;
+    --bandeau_couleur_fond_transparence:#365ba7de;
+    --bandeau_largeur: 100%;
+    --bandeau_hauteur: 2em;
+    --bandeau_bouton_couleur_survol: white;
+    --bandeau_taille_police: 1.6em;
+    --bandeau_text_color : white;
+    --bandeau_color_icons : white;
+    /* boutons */
+    --boutons_fond_couleur: #365ba7;
+    --boutons_police_couleur: white;
+    --boutons_selected_fond_couleur: rgb(12, 195, 25);
+    --boutons_selected_police_couleur: rgb(255, 255, 255);
+    /* page liste des thÃ¨mes */
+    --themes_bloc_largeur: 40em;
+    --themes_bloc_marge: 2rem;
+    --themes_fond_couleur: #ffffff00;
+    --themes_police_couleur: black;
+    --themes_police_couleur_survol: rgb(0, 0, 0);
+    --soustheme_bloc_hauteur: 3em;
+    --soustheme_bloc_marge_dessous: 1.4em;
+    --soustheme_bordure_couleur_survol: black;
+    --soustheme_fond_couleur: yellow;
+    --soustheme_fond_couleur_survol: rgb(0, 0, 0);
+    /* thÃ¨mes menu*/
+    --themes_menu_marge_dessous: 3em;
+    --themes_menu_direction: row;
+    --themes_menu_fond_couleur: #365ba7;
+    --color_text_menu: white;
+    --themes_menu_fond_couleur_select: #ededed;
+    --color_text_menu_selected:#5a8ae0 ;
+    --themes_menu_item_alignement: center;
+    --themes_menu_police_taille: 20px;
+    --themes_menu_police_couleur: black;
+    /* page login */
+    --login_bloc_largeur: 40em;
+    --login_titre_fond_couleur: #365ba7;
+    --login_titre_texte_couleur: white;
+    --login_bordure_couleur: #365ba7;
+    /* page formulaires */
+    --bloc_fond_couleur: #f4f4f4bd;
+    --bloc_titre_fond_couleur: #6b8ed7;
+    /* fil d'Ariane */
+    --ariane_fond_couleur: #F4F4F4;
+    --ariane_police_couleur: black;
+    --ariane_police_taille: 0.8em;
+    --ariane_selected_fond_couleur_couleur: rgb(12, 195, 25);
+    --ariane_selected_fond_couleur: rgb(255, 255, 255);
+    /* messages et alertes */
+    --modale_texte_couleur: black;
+    --modale_texte_taille: 2.5em;
+    --modale_bouton_fond_couleur: #333030;
+    --modale_bouton_texte_couleur: #fff;
+    --modale_bouton_texte_taille: 1em;
+    /* validation des champs */
+    --syntax_error_fond_couleur: rgb(255, 148, 212);
+    --syntax_ok_fond_couleur: white;
+    /* footer */
+    --footer_image_taille: 12.5em;
+    --footer-fond-color:white;
+    --footer-image-url:url(/assets/images/teamnet.jpg);
 }
