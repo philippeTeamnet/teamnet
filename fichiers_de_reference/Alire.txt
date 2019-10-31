@@ -1,0 +1,7 @@
+
+Le nom du dossier client "nomClient" devra correspondre au nom du client tel que défini dans l'URL du portail.
+
+Ex : 
+URL du portail          = http://meudonTruc.portail-familles.com
+Nom du dossier client   = meudonTruc
+
